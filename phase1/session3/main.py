@@ -16,11 +16,12 @@ print(department)
 print(Course)
 """
 
-Name = str(input("what is your name: "))
-level = int(input("what level you're in: "))
-department = str(input("what's you're department"))
+Name = str(input("what is your name?: "))
+print(f"hello, {Name} how are you doing today? ")
 
+level = int(input("what level you're in?: "))
+print(f"ouuuu, thats a tough level to be in")
 
-print(Name)
-print(level)
-print(department)
+department = str(input("what's you're department?:"))
+print(f"Good choice!")
+
