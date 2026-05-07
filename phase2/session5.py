@@ -1,23 +1,23 @@
 """
-Session: One
+Session: Five
 Date: 2nd May 2026 11:30am-1pm
 focus: Setup (if, else, elif)
 Facilitator: Olatunbosun
 """
-# # Hard coded variable
-# name = 'Samuel Gregory'
-# age = 32
-# dept = "Mass Communication"
-# hobby = 'Football'
-# height= 1.67
+# Hard coded variable
+name = 'Samuel Gregory'
+age = 32
+dept = "Mass Communication"
+hobby = 'Football'
+height= 1.67
 
-# print("\n------Hard Coded Variables--------")
-# print("Hi, am ",name, "\n")
+print("\n------Hard Coded Variables--------")
+print("Hi, am ",name, "\n")
 
-# # # Dynamic Variables
-# # name = str(input("Please your full name: "))
-# # print("\n------Dynamic Variable--------")
-# # print("Hi, am ", name)
+# Dynamic Variables
+# name = str(input("Please your full name: "))
+# print("\n------Dynamic Variable--------")
+# print("Hi, am ", name)
 
 # # Printing ID card for Samuel
 # print("\n---------Mautech Student ID Card Option1-------------")
@@ -44,11 +44,11 @@ Only one option can be true at a time. two can conditions can not be valid.
 
 # # if only without considering the opposite result
 # if marv>greg:
-#     print("\nComparing ages result show that Marve is Older \n")
+#     print(f"\nComparing ages result show that Marve is Older at {int(marv)} \n")
 
-# # if/else
-# if marv>greg:
-#     print("\nComparing ages result show that Marve is Older \n")
+# # # if/else
+# # if marv>greg:
+# #     print("\nComparing ages result show that Marve is Older \n")
 # else:
 #     print("\nComparing ages result show that Greg is Older \n")
 
@@ -66,7 +66,7 @@ Only one option can be true at a time. two can conditions can not be valid.
 
 # Calculator
 amount = float(input("Enter the total purchase amount naira: "))
-
+discount_rate = 0.0
 if amount >= 120000:
     discount_rate = 0.09
     print("Status: 10% Gold Discount Applied")
