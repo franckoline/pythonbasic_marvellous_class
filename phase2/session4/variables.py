@@ -47,8 +47,8 @@ elif marv<sam:
 elif greg<sam: 
     print("\ncomparing ages results show that greg is the youngest \n")
 else:
-    print("invalid statement")       
-'''
+    print("invalid statement")'''      
+
 
 # Calculator
 
@@ -81,4 +81,6 @@ print("-" * 30)
 print(f"TOTAL PAYABLE:   {total_final:,.2f}")
 print("\n Any goods sold can not be return")
 print("-" * 30)
+
+
 
