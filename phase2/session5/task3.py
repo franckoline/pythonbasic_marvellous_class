@@ -10,5 +10,4 @@ else:
 if bill > 20000:
     bill += 1000
     print("Maintenance Levy of ₦1,000 applied.")
-
 print(f"Total amount due: ₦{bill:.3f}")

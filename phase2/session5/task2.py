@@ -2,7 +2,7 @@ amount =float(input("Enter amount in USD: "))
 if amount >= 1 and amount <= 500:
     Comission_Rate = 0.05
 elif amount < 2000:
-    Commission_Rate = 0.03
+    Comission_Rate = 0.03
 else:
     Comission_Rate = 0.015
 
