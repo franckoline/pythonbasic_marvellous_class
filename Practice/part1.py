@@ -33,4 +33,3 @@ level = (input("LEVEL      : "))
 print(f"\n\nFIRST NAME: [{name1}]\nSURNAME: [{name2}]\nDEPT:[{dept}]\nLEVEL: [{level}]")
 print("this is the property of the school, please if found kindly return it.")
 
-

@@ -52,7 +52,7 @@ else:
 
 # Calculator
 
-amount = float(input("Enter the total purchase amount naira: "))
+'''amount = float(input("Enter the total purchase amount naira: "))
 
 if amount >= 120000:
     discount_rate = 0.09
@@ -80,7 +80,9 @@ print(f"VAT (7.5%):     +{tax_amount:,.2f}")
 print("-" * 30)
 print(f"TOTAL PAYABLE:   {total_final:,.2f}")
 print("\n Any goods sold can not be return")
-print("-" * 30)
+print("-" * 30)'''
+
+
 
 
 
