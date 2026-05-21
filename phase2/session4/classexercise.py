@@ -112,6 +112,13 @@ operation_years = int(input("How many years have you been in operation?: "))'''
 
 #------------------------------------------------------------------
 #num9
+name = str(input("What is your Full Name?: "))
+dob = str(input("What is your date of birth?: "))
+state_of_origin = str(input("what is your state of Origin?: "))
+print()
+print()
+print("------DRIVERS LICENCE-----")
+print(f"NAME--[{name}]\nD.O.B--[{dob}]\nSTATE OF ORIGIN--[{state_of_origin}]")
 
 
     
