@@ -58,70 +58,70 @@ Facilitator: Olatunbosun
 
 # ## for, while, Do while
 
-"""
-Session: sixB
-Date: 21st May 2026 10:-12noon
-focus: Dictionary {}
-Facilitator: Olatunbosun
-"""
+# """
+# Session: sixB
+# Date: 21st May 2026 10:-12noon
+# focus: Dictionary {}
+# Facilitator: Olatunbosun
+# """
 
-students = {
-    "student1":{},
-    "student2":{},
-    "student3":{}
+# students = {
+#     "student1":{},
+#     "student2":{},
+#     "student3":{}
     
-}
-studentDict = {
-    "name": "Olatunbosun", 
-    "age": 12, 
-    "phone":"+23480002993885", 
-    "hobbies":["Tenis", "football", 'chess'],
-    "score":{
-        "math": 98,
-        "english":25,
-        "chemistry":38
-    }
-    }
-clothSet = {"blouse", "trouser", "cap"}
-# accessing dictionary values:
-print(studentDict)
+# }
+# studentDict = {
+#     "name": "Olatunbosun", 
+#     "age": 12, 
+#     "phone":"+23480002993885", 
+#     "hobbies":["Tenis", "football", 'chess'],
+#     "score":{
+#         "math": 98,
+#         "english":25,
+#         "chemistry":38
+#     }
+#     }
+# clothSet = {"blouse", "trouser", "cap"}
+# # accessing dictionary values:
+# print(studentDict)
 
-# Accessing Specific key values
-print(studentDict["name"])
-print(f"List of Keys: {studentDict.keys()}\n")
-print(f"List of Values: {studentDict.values()}\n")
+# # Accessing Specific key values
+# print(studentDict["name"])
+# print(f"List of Keys: {studentDict.keys()}\n")
+# print(f"List of Values: {studentDict.values()}\n")
 
-# Removing values
-studentDict.pop("hobbies")
-print(f"After removing hobbies: {studentDict}")
-studentDict.popitem()
-print(studentDict)
-# Updating Values
-studentDict["score"] = 98
-print(f"Update value using predifined Key: {studentDict}")
-studentDict.update({"score":30})
-print(f"Updating value using update method: {studentDict}")
-#Adding Values
-studentDict.update({"parent":"Mangadu"})
-print(f"Adding new key and value : {studentDict}")
+# # Removing values
+# studentDict.pop("hobbies")
+# print(f"After removing hobbies: {studentDict}")
+# studentDict.popitem()
+# print(studentDict)
+# # Updating Values
+# studentDict["score"] = 98
+# print(f"Update value using predifined Key: {studentDict}")
+# studentDict.update({"score":30})
+# print(f"Updating value using update method: {studentDict}")
+# #Adding Values
+# studentDict.update({"parent":"Mangadu"})
+# print(f"Adding new key and value : {studentDict}")
 
-#looping through Dictionaries, for and while
-print(studentDict)
-for x, y in studentDict.items():
-    print(x,":", y)
+# #looping through Dictionaries, for and while
+# print(studentDict)
+# for x, y in studentDict.items():
+#     print(x,":", y)
 
-print(f"\n --------while conditions---------")
-n =0
-studentKey = list(studentDict.keys())
-studentValue = list(studentDict.values())
-while n<len(studentKey):
-    print(studentKey[n],":",studentValue[n])
-    n +=1
+# print(f"\n --------while conditions---------")
+# n =0
+# studentKey = list(studentDict.keys())
+# studentValue = list(studentDict.values())
+# while n<len(studentKey):
+#     print(studentKey[n],":",studentValue[n])
+#     n +=1
 
 
 # dynamic dictionary creation
 
-nDict= {}
+# nDict= {}
 
 # while True:
 #     key1 = str(input("Enter your Key: "))
@@ -133,11 +133,45 @@ nDict= {}
 
 # Creating dictionary from a predefined length of key values
 
-keyList = ["name", "age", "class"]
+# keyList = ["name", "age", "class"]
 
-n = 1
-while n <= len(keyList):
-    valuel = str(input(f"Please enter values for {keyList[n-1]}: "))
-    nDict.update({keyList[n-1]:valuel})
-    n +=1
-print(nDict)
+# n = 1
+# while n <= len(keyList):
+#     valuel = str(input(f"Please enter values for {keyList[n-1]}: "))
+#     nDict.update({keyList[n-1]:valuel})
+#     n +=1
+# print(nDict)
+
+# statem = str(input("Enter any value: "))
+# while statem.lower() != "enter":
+#     print("Please type 'ENTER' to begin to explore our service")
+#     continue
+# else:
+#     print("Welcome to Session")
+
+"""
+Date:25th May 2026
+Focus: try Except
+"""
+
+a = 34
+b = 2
+c = 43
+
+try:
+    d = a*b
+    e = a-c
+    f =d/e
+    print(f"result :==> {f}")
+except ZeroDivisionError:
+    print(f"\n\n Numberator can not be divide by zero value \n")
+except ValueError:
+    print("")
+except NameError:
+    print("")
+except IOError:
+    print("")
+else:
+    print("You try block successfully")
+finally:
+    print("Task completed")
