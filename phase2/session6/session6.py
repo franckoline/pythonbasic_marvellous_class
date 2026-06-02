@@ -175,3 +175,36 @@ else:
     print("You try block successfully")
 finally:
     print("Task completed")
+
+
+"""
+Library
+"""
+
+import statistics as stat
+import math as mat
+
+scores =[60, 70, 30, 45, 99, 29]
+scoreCount=(len(scores))
+
+totalScores = 0
+for score in scores:
+    totalScores +=score
+scoreMean = totalScores/scoreCount
+
+scoreMean2 = stat.variance(scores)
+
+ksScores = {
+    "math": 95,
+    "eng": 87,
+}
+
+"""
+Ensure your dataset has three subjects with same score values
+mean, median, mode, standard deviation, variance
+Implement this tasks in the following order.
+
+1. Barebone - manual calculation
+2. automatic - using statistics class
+"""
+
