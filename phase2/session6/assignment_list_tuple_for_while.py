@@ -120,14 +120,9 @@ for seat in seats:
 temps = [39, 34, 38, 36, 38, 47, 42]
 total = 0
 for temp in temps:
-    high = max(temps)
-    low = min(temps)
-    total = total + temp
-    average = total / len(temps)
-
-print(f"\nHighest value: {high} degrees celcius")
-print(f"Average value: {average: .2f} degrees celcius")
-print(f"Lowest value: {low} degrees celcius")
+    print(f"\nHighest value: {max(temps)} degrees celsius")
+    print(f"Average value: {total / len(temps): .2f} degrees celsius")
+    print(f"Lowest value: {min(temps)} degrees celsius")
 
 
 
