@@ -82,29 +82,3 @@ print(f"The variance is{variance: .2f}")
 
 standard_deviation = pow(variance, 1/2)
 print(f"The standard deviation is{standard_deviation: .2f}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
