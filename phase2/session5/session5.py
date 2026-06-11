@@ -84,7 +84,7 @@ tax_amount = subtotal * tax_rate
 
 total_final = subtotal + tax_amount
 
-print("\n      Amiral Store")
+print("\n      Norland Stores")
 print("-" * 30)
 print(f"Original Amount: {amount:,.2f}")
 print(f"Discount:       -{discount_value:,.2f}")

@@ -1,9 +1,9 @@
-# """
+"""
 # Session: six
 # Date: 21st may 2026 10am-12noon
 # focus: List (if/else, for, while)
 # Facilitator: Olatunbosun
-# """
+ """
 # #List [] 
 
 # nameList = ["Ismail", "Gabriel", "Yakubu", "Caleb", "Fatima"]
@@ -51,8 +51,9 @@
 #     print("The two stand have no car list")    
 
 
-# ## for, while, Do while
 
+
+# ## for, while, Do while
 """
 # Session: six
 # Date: 21st may 2026 1pm-3pmn

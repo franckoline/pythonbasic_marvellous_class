@@ -1,8 +1,0 @@
---- SALES SUMMARY REPORT ---
-Total Revenue: 167000
-Best Selling Item: Garri
-
---- EXPENSIVE ITEMS ---
-- Beans: 2000
-- Oil: 3000
-- Indomie: 6500

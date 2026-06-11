@@ -47,12 +47,12 @@ elif marv<sam:
 elif greg<sam: 
     print("\ncomparing ages results show that greg is the youngest \n")
 else:
-    print("invalid statement")'''      
+    print("invalid statement")'''  
 
 
 # Calculator
 
-'''amount = float(input("Enter the total purchase amount naira: "))
+amount = float(input("Enter the total purchase amount naira: "))
 
 if amount >= 120000:
     discount_rate = 0.09
@@ -71,7 +71,7 @@ tax_amount = subtotal * tax_rate
 
 total_final = subtotal + tax_amount
 
-print("\n      Amiral Store")
+print("\n      MINI MART")
 print("-" * 30)
 print(f"Original Amount: {amount:,.2f}")
 print(f"Discount:       -{discount_value:,.2f}")
@@ -79,8 +79,8 @@ print(f"Subtotal:        {subtotal:,.2f}")
 print(f"VAT (7.5%):     +{tax_amount:,.2f}")
 print("-" * 30)
 print(f"TOTAL PAYABLE:   {total_final:,.2f}")
-print("\n Any goods sold can not be return")
-print("-" * 30)'''
+print("\nAny goods sold can not be return, Thank you for shopping with us!")
+print("-" * 30)
 
 
 

@@ -29,3 +29,5 @@ pip install numpy
 
 verify installed packages again
 """
+
+print(help(str))
