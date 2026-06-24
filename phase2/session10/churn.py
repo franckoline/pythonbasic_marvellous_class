@@ -38,6 +38,7 @@ print("\n--- Predictive Risk Analysis ---")
 high_ticket_customers = [c for c in customer_data if c["support_tickets"] > 2]
 total_high_ticket = len(high_ticket_customers)
 
+
 # Count how many of these high-ticket customers actually churned
 high_ticket_churned = sum([c["churned"] for c in high_ticket_customers])
 
