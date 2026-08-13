@@ -13,7 +13,7 @@ while True:
     try:
         num_of_employees = int(input("Enter number of employees: "))
         if num_of_employees <= 0:
-            print("Number of employees must be greater than 0.")
+            print("Number of employees must be greater than 0")
             continue
         break
     except ValueError:
@@ -25,6 +25,9 @@ while i < num_of_employees:
     name = input(f"Enter the name of employee no. {i + 1}: ").strip()
     if name == "":
         print("Name cannot be empty.")
+        continue
+    if name.isdigit():
+        print("Name cannot contain digits")
         continue
     names.append(name)
     initials.append(name[0].upper())
