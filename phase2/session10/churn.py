@@ -1,6 +1,10 @@
 """
 Session: Ten
+<<<<<<< HEAD
 Date: 2nd June 2026 8:30am
+=======
+Date: 8th June 2026 9:30am
+>>>>>>> 1dfd60eb2443b5adbb97a4664d83ac1c6bf9d14c
 focus: Churn Probability
 Facilitator: Olatunbosun
 """
@@ -22,6 +26,12 @@ total_customers = len(customer_data)
 
 
 churn_events = [customer["churned"] for customer in customer_data]
+<<<<<<< HEAD
+=======
+print("printing customer\n")
+print(churn_events)
+print("printing customer\n")
+>>>>>>> 1dfd60eb2443b5adbb97a4664d83ac1c6bf9d14c
 total_churned = sum(churn_events)
 
 p_churn = total_churned / total_customers
@@ -34,11 +44,24 @@ print(f"Baseline Probability of Churn: {p_churn:.2f} ({p_churn * 100:.1f}%)")
 
 print("\n--- Predictive Risk Analysis ---")
 
+<<<<<<< HEAD
 # Filter space for high-ticket customers
 high_ticket_customers = [c for c in customer_data if c["support_tickets"] > 2]
 total_high_ticket = len(high_ticket_customers)
 
 
+=======
+"""
+Conditional Population
+"""
+# Filter space for high-ticket customers
+high_ticket_customers = [c for c in customer_data if c["support_tickets"] > 2]
+print("printing customer")
+print(high_ticket_customers)
+print("printing customer\n")
+total_high_ticket = len(high_ticket_customers)
+
+>>>>>>> 1dfd60eb2443b5adbb97a4664d83ac1c6bf9d14c
 # Count how many of these high-ticket customers actually churned
 high_ticket_churned = sum([c["churned"] for c in high_ticket_customers])
 
@@ -49,4 +72,14 @@ if total_high_ticket > 0:
     print(f"Churned within this specific group: {high_ticket_churned}")
     print(f"Probability of Churn if Tickets > 2: {p_churn_given_high_tickets:.2f} ({p_churn_given_high_tickets * 100:.1f}%)")
 else:
+<<<<<<< HEAD
     print("No customers matched the criteria.")
+=======
+    print("No customers matched the criteria.")
+
+
+print("\n\n New Dataset \n\n")
+print(customer_data)
+print('\n\n New data')
+print(high_ticket_customers)
+>>>>>>> 1dfd60eb2443b5adbb97a4664d83ac1c6bf9d14c
